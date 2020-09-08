@@ -1,143 +1,37 @@
 *{
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: black;
+}
+
+.navbar{
+    background-color: yellow;
+   
+}
+
+.navbar-default{
+    background-color: yellow;
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+h3{
     text-align: center;
 }
 
-#boxa{
-    background-color: grey;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    width: 33%;
-    height: fit-content;
-    margin: 10px;
-    position: relative;
-    left: 10px;
-    border: 3px solid;
-
+.container-fluid{
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-#boxb{
-    background-color: grey;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    width: 33%;
-    height: fit-content;
-    margin: 10px;
-    position: relative;
-    left: 10px;
-    border: 3px solid;
-
+.row{
+    padding:15px;
 }
 
-#boxc{
-    background-color: grey;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    width: 33%;
-    height: fit-content;
-    margin: 10px;
-    position: relative;
-    left: 10px;
-    border: 3px solid;
-
+.text-center{
+    font-weight: bolder;
 }
-
-#box1{
-    background-color:pink;
-    text-align: center;
-    border-left: 3px solid;
-    border-bottom: 3px solid;
-    width: 25%;
-    position: relative;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#box2{
-    background-color: maroon ;
-    text-align: center;
-    border-left: 3px solid;
-    border-bottom: 3px solid;
-    width: 25%;
-    position: relative;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-#box3{
-    position: relative;
-    background-color:goldenrod;
-    text-align: center;
-    border-left: 3px solid;
-    border-bottom: 3px solid;
-    width: 25%;
-    position: relative;
-    float: right;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.content{
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    clear: right;
-    width: fit-content;
-    padding: 10px;
-}
-
-#box2>h3{
-    color: white;
-}
-
-
-@media(min-width: 992px){
-    #boxa{
-        width: 31%;
-    }
-
-    #boxb{
-        width: 31%;
-    }
-
-    #boxc{
-        width: 31%;
-    }
-}
-
-@media(min-width: 768px) and (max-width: 991px){
-    #boxa{
-        width: 46%;
-    }
-
-    #boxb{
-        width: 46%;
-    }
-
-    #boxc{
-        width: 94%;
-    }
-}
-
-@media(max-width: 767px){
-    #boxa{
-        width: 100%;
-    }
-
-    #boxb{
-        width: 100%;
-    }
-
-    #boxc{
-        width: 100%;
-    }
-}
-
